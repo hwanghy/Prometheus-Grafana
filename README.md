@@ -61,6 +61,7 @@ scrape_configs:
     scrape_interval: 5s
     static_configs:
       - targets: ['localhost:9090']
+      
   - job_name: 'glusterfs'
     scrape_interval: 30s
     static_configs:
